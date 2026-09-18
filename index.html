@@ -2,13 +2,142 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-site-verification" content="1EDZNDZ5OtjGac-2QyE1O11ZzcCkUpH5ylAGRzvYkTQ" />
-  <title>Snap Link</title>
+  <title>Snap Link - Resmi Web Sitemiz</title>
+  <style>
+    :root {
+      --bg-color: #0f172a;
+      --card-bg: #1e293b;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #6366f1;
+      --accent-light: #a5b4fc;
+      --border: #334155;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .card {
+      max-width: 550px;
+      width: 100%;
+      background-color: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 40px 30px;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+      text-align: center;
+    }
+
+    .app-icon {
+      width: 80px;
+      height: 80px;
+      background: linear-gradient(135deg, #ef4444, #f59e0b, #10b981);
+      border-radius: 22px;
+      margin: 0 auto 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 38px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      margin-bottom: 8px;
+      background: linear-gradient(to right, #818cf8, #c084fc);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .tagline {
+      color: var(--text-muted);
+      font-size: 1rem;
+      font-weight: 500;
+      margin-bottom: 28px;
+    }
+
+    .section {
+      background: rgba(15, 23, 42, 0.5);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px;
+      margin-bottom: 16px;
+      text-align: left;
+    }
+
+    .section h2 {
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--accent-light);
+      margin-bottom: 6px;
+    }
+
+    .section p {
+      font-size: 0.92rem;
+      color: #cbd5e1;
+    }
+
+    .footer {
+      margin-top: 24px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+    }
+
+    .footer a {
+      color: var(--accent-light);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 600;
+      transition: color 0.2s ease;
+    }
+
+    .footer a:hover {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <h1>Snap Link</h1>
-  <p>Fırlat, birleştir ve patlat! Snap Link, tek parmak kontrolüyle oynanan, dinamik manyetik çekim fiziği ve zincirleme patlamalarla dolu bağımlılık yapıcı bir bulmaca oyunudur.</p>
-  <p>Google hesabınızla bağlanarak toplam skorunuzla sıralamaya katılın ve arkadaşlarınızla yarışın.</p>
-  <p><a href="privacy.html">Gizlilik Politikası (Privacy Policy)</a></p>
+
+  <div class="card">
+    <div class="app-icon">🧲</div>
+    <h1>Snap Link</h1>
+    <p class="tagline">Dinamik Manyetik Bulmaca Oyunu</p>
+
+    <div class="section">
+      <h2>Oyun Hakkında</h2>
+      <p>Fırlat, birleştir ve patlat! Snap Link, tek parmak kontrolüyle oynanan, dinamik manyetik çekim fiziği ve zincirleme patlamalarla dolu bağımlılık yapıcı bir bulmaca oyunudur.</p>
+    </div>
+
+    <div class="section">
+      <h2>Google Hesabı ve Veri Kullanımı</h2>
+      <p>Google hesabınızla güvenli bir şekilde bağlanarak toplam skorunuzla küresel sıralamaya katılabilir ve arkadaşlarınızla yarışabilirsiniz.</p>
+    </div>
+
+    <div class="footer">
+      <a href="privacy.html">Gizlilik Politikası (Privacy Policy)</a>
+    </div>
+  </div>
+
 </body>
 </html>
